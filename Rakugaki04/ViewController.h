@@ -9,5 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+{
+    UILabel *m_lbl; // スライダーの値表示用ラベル
+    UIImageView *canvas;
+    CGPoint touchPoint;
+}
 
 @end
